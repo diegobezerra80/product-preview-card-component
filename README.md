@@ -19,8 +19,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Your solution on Frontend Mentor](https://www.frontendmentor.io/solutions/your-solution-link)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-product-card-using-flexbox-and-custom-css-mqDLOvWcEk
+- Live Site URL: https://diegobezerra80.github.io/product-preview-card-component/
 
 ## My process
 
