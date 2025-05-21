@@ -8,25 +8,46 @@
   
   <title>Frontend Mentor | Product preview card component</title>
 
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/styles.css">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; position: absolute; bottom: 0; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
 
-  Perfume
+  <div class="product-card">
+    <div class="product-card__image">
+        <picture>
+          <source srcset="./images/image-product-desktop.jpg" media="(min-width: 376px)">
+          <img src="./images/image-product-mobile.jpg" alt="A bottle of Gabrielle perfume by Chanel">
+        </picture>
+    </div>
+    <div class="product-card__content">
+      <p class="product-card__category">Perfume</p>
+      <h2 class="product-card__title">Gabrielle Essence Eau De Parfum</h2>
+      <p class="product-card__description">
+        A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.
+      </p>
+      <div class="product-card__pricing">
+        <strong class="product-card__price--current">$149.99</strong>
+        <span class="product-card__price--old">$169.99</span>
+      </div>
+      <button class="product-card__button">
+        <img src="./images/icon-cart.svg" alt="icon cart"/>
+        Add to Cart
+      </button>
+    </div>
+  </div>
 
-  Gabrielle Essence Eau De Parfum
-
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
-
-  $149.99
-  $169.99
-
-  Add to Cart
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
